@@ -1,0 +1,9 @@
+parm com_solv.prmtop
+trajin md1.rst
+
+reference ../com_solv.pdb
+
+autoimage
+
+distance RBD-1061 :1-194@CA :195-648@CA out distance.dat noimage
+
